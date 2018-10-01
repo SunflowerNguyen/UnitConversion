@@ -19,7 +19,7 @@ class UnitConversion {
         static::$conversion = Units::$conversion;
     }
 
-    public static function convert($quantity , $unit){
+    public function convert($quantity , $unit){
         return new UnitConversion($quantity, $unit);
     }
 
